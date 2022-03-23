@@ -11631,6 +11631,26 @@ a {
   -webkit-transform: scale(1);
 }
 
+.js-position-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.js-simple-center {
+  width: 210px;
+  height: 50px;
+  padding: 0 20px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #17a185;
+  border-radius: 5px;
+}
+
 .js-loading-text {
   width: 100%;
   height: 100%;
